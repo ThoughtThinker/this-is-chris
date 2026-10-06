@@ -5,7 +5,7 @@ const LINKEDIN_URL = 'https://linkedin.com/in/christopherwilliams2018'
 export function CallingCard() {
   return (
     <article className="w-full max-w-2xl overflow-hidden rounded-2xl border bg-card shadow-sm">
-      <header className="bg-primary px-8 py-10 text-primary-foreground sm:px-12 sm:py-12">
+      <header className="bg-carbon border-b border-primary px-8 py-10 text-primary-foreground sm:px-12 sm:py-12">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-primary-foreground/70">
           Technology Portfolio &amp; Operations Leader
         </p>
@@ -63,7 +63,7 @@ export function CallingCard() {
             href={LINKEDIN_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+            className="inline-flex items-center justify-center gap-2 rounded-lg bg-carbon px-5 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             Connect on LinkedIn
             <ArrowUpRight className="size-4" aria-hidden="true" />
