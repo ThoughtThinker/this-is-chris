@@ -12,6 +12,10 @@ export function CallingCard() {
         <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight text-balance sm:text-5xl">
           Christopher Williams
         </h1>
+        <p className="mt-5 inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 px-3 py-1 text-xs font-medium tracking-wide text-primary-foreground/80">
+          <span className="size-1.5 rounded-full bg-primary-foreground/80" aria-hidden="true" />
+          Now on GitHub
+        </p>
       </header>
 
       <div className="flex flex-col gap-8 px-8 py-10 sm:px-12">
